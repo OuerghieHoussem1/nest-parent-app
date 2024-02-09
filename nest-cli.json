@@ -27,6 +27,24 @@
       "compilerOptions": {
         "tsConfigPath": "apps/auth/tsconfig.app.json"
       }
+    },
+    "cats": {
+      "type": "application",
+      "root": "apps/cats",
+      "entryFile": "main",
+      "sourceRoot": "apps/cats/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/cats/tsconfig.app.json"
+      }
+    },
+    "dogs": {
+      "type": "application",
+      "root": "apps/dogs",
+      "entryFile": "main",
+      "sourceRoot": "apps/dogs/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/dogs/tsconfig.app.json"
+      }
     }
   }
 }
